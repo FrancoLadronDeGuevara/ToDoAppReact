@@ -1,4 +1,5 @@
 import { FaTasks } from "react-icons/fa";
+import AddTask from "./components/AddTask";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
         <FaTasks className="text-green-600" />
         <span className="text-blue-950">Mi Lista de Tareas</span>
       </h1>
+
+      <AddTask />
     </>
   );
 }
